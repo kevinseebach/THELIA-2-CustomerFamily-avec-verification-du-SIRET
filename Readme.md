@@ -16,7 +16,7 @@ Also allow to define purchase prices for products.
 	   $apiKey="VOTRE CLEF API DE VERIF-SIRET.COM";
 	   $secretKey="VOTRE CLEF SECRETE DE VERIF-SIRET.COM";
 	
-by your keys. You can get them at verif-siret.com
+by your keys (lines 287-288). You can get them at verif-siret.com
 * Activate it in your thelia administration panel
 
 ## Usage
