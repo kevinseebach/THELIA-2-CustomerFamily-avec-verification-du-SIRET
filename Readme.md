@@ -1,5 +1,10 @@
+### THELIA 2 - Module CustomerFamily avec vérification du SIRET
+
+
 
 Create customer families (professional, private individual, ...) and manage specific prices.
+
+When a pro create an account SIRET format is checked and SIRET attribution is checked.
 
 Also allow to define purchase prices for products.
 
@@ -8,8 +13,8 @@ Also allow to define purchase prices for products.
 * Copy the module into ```<thelia_root>/local/modules/CustomerFamily``` directory and be sure that the name of the module is CustomerFamily.
 * EDIT FILE EventListeners/CustomerFamilyFormListener.php and replace
 
-	   ``` $apiKey="VOTRE CLEF API DE VERIF-SIRET.COM";
-	   $secretKey="VOTRE CLEF SECRETE DE VERIF-SIRET.COM";```
+	   $apiKey="VOTRE CLEF API DE VERIF-SIRET.COM";
+	   $secretKey="VOTRE CLEF SECRETE DE VERIF-SIRET.COM";
 	
 by your keys. You can get them at verif-siret.com
 * Activate it in your thelia administration panel
