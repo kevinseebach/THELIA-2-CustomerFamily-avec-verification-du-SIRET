@@ -1,29 +1,16 @@
-# Customer Family
 
 Create customer families (professional, private individual, ...) and manage specific prices.
 
 Also allow to define purchase prices for products.
 
-## Compatibility
-* To use on Thelia 2.3.x, use tag [1.3](https://github.com/thelia-modules/CustomerFamily/tree/1.3)
-* To use on Thelia 2.2.x, use tag [1.2](https://github.com/thelia-modules/CustomerFamily/tree/1.2)
-* To use on Thelia 2.1.x, use tag [1.1](https://github.com/thelia-modules/CustomerFamily/tree/1.1)
-* To use on Thelia 2.0.x, use tag [1.0](https://github.com/thelia-modules/CustomerFamily/tree/1.0)
-
-## Installation
-
 ### Manually
 
 * Copy the module into ```<thelia_root>/local/modules/CustomerFamily``` directory and be sure that the name of the module is CustomerFamily.
+* EDIT FILE EventListeners/CustomerFamilyFormListener.php and replace 
+	    $apiKey="VOTRE CLEF API DE VERIF-SIRET.COM";
+   	 $secretKey="VOTRE CLEF SECRETE DE VERIF-SIRET.COM";
+by your keys. You can get them at verif-siret.com
 * Activate it in your thelia administration panel
-
-### Composer
-
-Add it in your main thelia composer.json file
-
-```
-composer require thelia/customer-family-module:~1.0
-```
 
 ## Usage
 
@@ -173,4 +160,3 @@ This form extend customer_create_form
 By default, two families are created
 * Private individual
 * Professional
-# THELIA-2-CustomerFamily-avec-verification-du-SIRET
