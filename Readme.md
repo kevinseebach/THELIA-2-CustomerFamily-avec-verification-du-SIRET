@@ -6,9 +6,11 @@ Also allow to define purchase prices for products.
 ### Manually
 
 * Copy the module into ```<thelia_root>/local/modules/CustomerFamily``` directory and be sure that the name of the module is CustomerFamily.
-* EDIT FILE EventListeners/CustomerFamilyFormListener.php and replace 
-	   ``` $apiKey="VOTRE CLEF API DE VERIF-SIRET.COM";
-   	 $secretKey="VOTRE CLEF SECRETE DE VERIF-SIRET.COM";```
+* EDIT FILE EventListeners/CustomerFamilyFormListener.php and replace
+
+	   ``` $apiKey="VOTRE CLEF API DE VERIF-SIRET.COM";```
+   	``` $secretKey="VOTRE CLEF SECRETE DE VERIF-SIRET.COM";```
+	
 by your keys. You can get them at verif-siret.com
 * Activate it in your thelia administration panel
 
