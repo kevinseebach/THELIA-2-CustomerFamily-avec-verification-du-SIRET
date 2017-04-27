@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+    <fullnamespace>CustomerFamily\CustomerFamily</fullnamespace>
+    <descriptive locale="en_US">
+        <title>Customer Family and Purchase Price</title>
+    </descriptive>
+    <descriptive locale="fr_FR">
+        <title>Famille de clients et prix d'achat</title>
+    </descriptive>
+    <version>1.3.12</version>
+    <author>
+        <name>Guillaume Barral / Etienne Perriere</name>
+        <email>gbarral@openstudio.fr / eperriere@openstudio.fr</email>
+    </author>
+    <type>classic</type>
+    <thelia>2.3.0</thelia>
+    <stability>prod</stability>
+</module>
